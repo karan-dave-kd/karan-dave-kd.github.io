@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Karan Dave - Website Developer Resume</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background:#f4f6f9;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:10px auto;
+            background:#fff;
+            display:grid;
+            grid-template-columns:300px 1fr;
+            box-shadow:0 0 20px rgba(0,0,0,0.1);
+        }
+
+        .sidebar{
+            background:#1e293b;
+            color:#fff;
+            padding:30px;
+            text-align:center;
+        }
+
+        .profile-img{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            object-fit:cover;
+            border:4px solid #0ea5e9;
+            margin-bottom:15px;
+        }
+
+        .sidebar h2{
+            margin-bottom:5px;
+        }
+
+        .sidebar p{
+            font-size:14px;
+            margin-bottom:10px;
+        }
+
+        .sidebar h3{
+            margin-top:20px;
+            margin-bottom:10px;
+            border-bottom:1px solid #334155;
+            padding-bottom:5px;
+            text-align:left;
+        }
+
+        .sidebar .info{
+            text-align:left;
+            font-size:14px;
+            margin-bottom:8px;
+        }
+
+        .badge{
+            display:inline-block;
+            background:#0ea5e9;
+            color:#fff;
+            padding:5px 10px;
+            margin:5px 5px 0 0;
+            border-radius:5px;
+            font-size:12px;
+        }
+
+        .content{
+            padding:30px;
+        }
+
+        .content h1{
+            color:#1e293b;
+        }
+
+        .content h2{
+            margin-top:15px;
+            margin-bottom:10px;
+            border-bottom:2px solid #e2e8f0;
+            padding-bottom:5px;
+        }
+
+        ul{
+            margin-left:20px;
+        }
+
+        .section{
+            margin-bottom:20px;
+        }
+
+        @media(max-width:768px){
+            .container{
+                grid-template-columns:1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Sidebar -->
+    <div class="sidebar">
+
+        <!-- Profile Image -->
+        <img src="https://media.licdn.com/dms/image/v2/D4D03AQEMw2gJwACAig/profile-displayphoto-crop_800_800/B4DZ3d_jCpIYAI-/0/1777545919140?e=1779926400&v=beta&t=ddeQ937iT6s5yVCFBmXAGHdAr30jV1NCwcgjQll3hMw" alt="Karan Dave" class="profile-img">
+
+        <h2>Karan Dave</h2>
+        <p>Website Developer</p>
+
+        <h3>Contact</h3>
+        <div class="info">Email: kdave2610@gmail.com</div>
+        <div class="info">Phone: +91-XXXXXXXXXX</div>
+        <div class="info">Location: Anand, Gujarat</div>
+
+        <h3>Skills</h3>
+        <span class="badge">HTML</span>
+        <span class="badge">CSS</span>
+        <span class="badge">JavaScript</span>
+        <span class="badge">PHP</span>
+        <span class="badge">Laravel</span>
+        <span class="badge">MySQL</span>
+        <span class="badge">Bootstrap</span>
+
+        <h3>Languages</h3>
+        <p>English</p>
+        <p>Gujarati</p>
+        <p>Hindi</p>
+    </div>
+
+    <!-- Main Content -->
+    <div class="content">
+
+        <h2>Professional Summary</h2>
+        <p>
+            Experienced Website Developer with expertise in frontend and backend development.
+            Skilled in building responsive web applications using PHP, Laravel, and modern technologies.
+        </p>
+
+        <h2>Experience</h2>
+        <div class="section">
+            <strong>Website Developer</strong>  <br>
+            <small>2016 - Present</small>
+            <ul>
+                <li>Developed dynamic web applications using Laravel.</li>
+                <li>Designed responsive UI using HTML, CSS, Bootstrap.</li>
+                <li>Managed MySQL database.</li>
+                <li>API integration and system optimization.</li>
+            </ul>
+        </div>
+
+        <h2>Education</h2>
+        <div class="section">
+            <strong>Bachelor of Computer Science (B.Sc.)</strong><br>
+            Sardar Patel University, Vidhyanagar, Anand.<br>
+            2012 - 2015
+        </div>
+
+        <h2>Projects</h2>
+        <div class="section">
+            <ul>
+                <li>Seed Management System (Laravel)</li>
+                <li>Online Application Portal</li>
+            </ul>
+        </div>
+
+        <h2>Declaration</h2>
+        <p>
+            I hereby declare that the above information is true and correct to the best of my knowledge.
+        </p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
