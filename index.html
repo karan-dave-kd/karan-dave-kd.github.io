@@ -1,187 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Karan Dave - Website Developer Resume</title>
-<meta name="google-site-verification" content="wBkAlNN7Thf3jibY6RvrypnIjQZM4zRrKHp7Ej1gAlw" />
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
-        }
-
-        body{
-            background:#f4f6f9;
-        }
-
-        .container{
-            max-width:1000px;
-            margin:10px auto;
-            background:#fff;
-            display:grid;
-            grid-template-columns:300px 1fr;
-            box-shadow:0 0 20px rgba(0,0,0,0.1);
-        }
-
-        .sidebar{
-            background:#1e293b;
-            color:#fff;
-            padding:30px;
-            text-align:center;
-        }
-
-        .profile-img{
-            width:150px;
-            height:150px;
-            border-radius:50%;
-            object-fit:cover;
-            border:4px solid #0ea5e9;
-            margin-bottom:15px;
-        }
-
-        .sidebar h2{
-            margin-bottom:5px;
-        }
-
-        .sidebar p{
-            font-size:14px;
-            margin-bottom:10px;
-        }
-
-        .sidebar h3{
-            margin-top:20px;
-            margin-bottom:10px;
-            border-bottom:1px solid #334155;
-            padding-bottom:5px;
-            text-align:left;
-        }
-
-        .sidebar .info{
-            text-align:left;
-            font-size:14px;
-            margin-bottom:8px;
-        }
-
-        .badge{
-            display:inline-block;
-            background:#0ea5e9;
-            color:#fff;
-            padding:5px 10px;
-            margin:5px 5px 0 0;
-            border-radius:5px;
-            font-size:12px;
-        }
-
-        .content{
-            padding:30px;
-        }
-
-        .content h1{
-            color:#1e293b;
-        }
-
-        .content h2{
-            margin-top:15px;
-            margin-bottom:10px;
-            border-bottom:2px solid #e2e8f0;
-            padding-bottom:5px;
-        }
-
-        ul{
-            margin-left:20px;
-        }
-
-        .section{
-            margin-bottom:20px;
-        }
-
-        @media(max-width:768px){
-            .container{
-                grid-template-columns:1fr;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Karan Dave - Website Developer Resume and Portfolio">
+  <meta name="author" content="Karan Dave">
+  <meta name="theme-color" content="#0f172a">
+  <title>Karan Dave | Website Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#top" aria-label="Karan Dave home">
+        <span class="brand-mark">KD
+        </span>
+        <span>Karan Dave</span>
+      </a>
 
-<div class="container">
+      <button class="nav-toggle" id="navToggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
 
-    <!-- Sidebar -->
-    <div class="sidebar">
+      <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
-        <!-- Profile Image -->
-        <img src="https://github.com/karan-dave-kd/karan-dave-kd.github.io/blob/a2b02db8489b552a34b95cd36d667037f4a17134/karan+dave.png?raw=true" alt="Karan Dave" class="profile-img">
-
-        <h2>Karan Dave</h2>
-        <p>Website Developer</p>
-
-        <h3>Contact</h3>
-        <div class="info">Email: kdave2610@gmail.com</div>
-        <div class="info">Phone: +91-XXXXXXXXXX</div>
-        <div class="info">Location: Anand, Gujarat</div>
-
-        <h3>Skills</h3>
-        <span class="badge">HTML</span>
-        <span class="badge">CSS</span>
-        <span class="badge">JavaScript</span>
-        <span class="badge">PHP</span>
-        <span class="badge">Laravel</span>
-        <span class="badge">MySQL</span>
-        <span class="badge">Bootstrap</span>
-
-        <h3>Languages</h3>
-        <p>English</p>
-        <p>Gujarati</p>
-        <p>Hindi</p>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">☾</button>
     </div>
+  </header>
 
-    <!-- Main Content -->
-    <div class="content">
+  <main>
+    <section class="hero">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-grid">
+        <div class="hero-content reveal">
+          <p class="eyebrow">WEBSITE DEVELOPER</p>
+          <h1>Building responsive, practical and reliable web solutions.</h1>
+          <p class="hero-text">
+            Experienced Website Developer with expertise in frontend and backend development,
+            PHP, Laravel, responsive UI, MySQL and modern web technologies.
+          </p>
 
-        <h2>Professional Summary</h2>
-        <p>
-            Experienced Website Developer with expertise in frontend and backend development.
-            Skilled in building responsive web applications using PHP, Laravel, and modern technologies.
-        </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Get In Touch <span>↗</span></a>
+            <button class="btn btn-secondary" id="printResume">Print / Save PDF</button>
+          </div>
 
-        <h2>Experience</h2>
-        <div class="section">
-            <strong>Website Developer</strong>  <br>
-            <small>2016 - Present</small>
-            <ul>
-                <li>Developed dynamic web applications using Laravel.</li>
-                <li>Designed responsive UI using HTML, CSS, Bootstrap.</li>
-                <li>Managed MySQL database.</li>
-                <li>API integration and system optimization.</li>
+          <div class="quick-links">
+            <a href="mailto:kdave2610@gmail.com">kdave2610@gmail.com</a>
+            <span>•</span>
+            <span>Anand, Gujarat</span>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-orbit">
+            <img src="https://github.com/karan-dave-kd/karan-dave-kd.github.io/blob/main/karan+dave.png?raw=true"
+               alt="Karan Dave"
+               class="profile-image">
+                <!-- <div class="profile-photo">
+                  
+                  <div class="profile-initials">KD</div>
+                </div> -->
+          </div>
+          <div class="profile-info">
+            <h2>Karan Dave</h2>
+            <p>Website Developer</p>
+            <div class="profile-tags">
+              <span>PHP</span>
+              <span>Laravel</span>
+              <span>MySQL</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-indicator" href="#about" aria-label="Scroll to about">↓</a>
+    </section>
+
+    <section class="section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">01</span>
+          <div>
+            <p class="eyebrow">PROFILE</p>
+            <h2>Professional Summary</h2>
+          </div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p class="lead">
+              Experienced Website Developer with expertise in frontend and backend development.
+              Skilled in building responsive web applications using PHP, Laravel, and modern technologies.
+            </p>
+            <p>
+              My work covers dynamic web applications, responsive interfaces, database management,
+              API integration and system optimization. I focus on clean, usable interfaces and
+              maintainable web solutions.
+            </p>
+          </div>
+
+          <div class="fact-grid reveal">
+            <div class="fact-card">
+              <span class="fact-icon">⌘</span>
+              <strong>2016–Present</strong>
+              <small>Professional Experience</small>
+            </div>
+            <div class="fact-card">
+              <span class="fact-icon">▣</span>
+              <strong>Laravel</strong>
+              <small>Backend Development</small>
+            </div>
+            <div class="fact-card">
+              <span class="fact-icon">◫</span>
+              <strong>MySQL</strong>
+              <small>Database Management</small>
+            </div>
+            <div class="fact-card">
+              <span class="fact-icon">◎</span>
+              <strong>Responsive</strong>
+              <small>Web Interfaces</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">02</span>
+          <div>
+            <p class="eyebrow">CAREER</p>
+            <h2>Professional Experience</h2>
+          </div>
+        </div>
+
+        <article class="timeline-card reveal">
+          <div class="timeline-date">2016 — Present</div>
+          <div class="timeline-line"><span></span></div>
+          <div class="timeline-content">
+            <p class="role-label">PROFESSIONAL EXPERIENCE</p>
+            <h3>Website Developer</h3>
+            <ul class="feature-list">
+              <li>Developed dynamic web applications using Laravel.</li>
+              <li>Designed responsive user interfaces using HTML, CSS and Bootstrap.</li>
+              <li>Managed MySQL databases and application data.</li>
+              <li>Worked on API integration and system optimization.</li>
             </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">03</span>
+          <div>
+            <p class="eyebrow">TECHNOLOGY</p>
+            <h2>Technical Skills</h2>
+          </div>
         </div>
 
-        <h2>Education</h2>
-        <div class="section">
-            <strong>Bachelor of Computer Science (B.Sc.)</strong><br>
-            Sardar Patel University, Vidhyanagar, Anand.<br>
-            2012 - 2015
+        <div class="skills-layout">
+          <div class="skills-list reveal">
+            <div class="skill-row"><div><span>HTML</span><b>Web Structure</b></div><div class="skill-bar"><span style="--level: 92%"></span></div></div>
+            <div class="skill-row"><div><span>CSS</span><b>Responsive UI</b></div><div class="skill-bar"><span style="--level: 88%"></span></div></div>
+            <div class="skill-row"><div><span>JavaScript</span><b>Frontend Logic</b></div><div class="skill-bar"><span style="--level: 80%"></span></div></div>
+            <div class="skill-row"><div><span>PHP</span><b>Backend Development</b></div><div class="skill-bar"><span style="--level: 90%"></span></div></div>
+            <div class="skill-row"><div><span>Laravel</span><b>Web Applications</b></div><div class="skill-bar"><span style="--level: 88%"></span></div></div>
+            <div class="skill-row"><div><span>MySQL</span><b>Database</b></div><div class="skill-bar"><span style="--level: 85%"></span></div></div>
+            <div class="skill-row"><div><span>Bootstrap</span><b>UI Framework</b></div><div class="skill-bar"><span style="--level: 86%"></span></div></div>
+          </div>
+
+          <div class="tech-cloud reveal">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span>
+            <span>Laravel</span><span>MySQL</span><span>Bootstrap</span>
+          </div>
         </div>
 
-        <h2>Projects</h2>
-        <div class="section">
-            <ul>
-                <li>Seed Management System (Laravel)</li>
-                <li>Online Application Portal</li>
-            </ul>
+        <div class="languages reveal">
+          <div class="language-title">
+            <p class="eyebrow">LANGUAGES</p>
+            <h3>Communication</h3>
+          </div>
+          <div class="language-items">
+            <span>English</span>
+            <span>Gujarati</span>
+            <span>Hindi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="projects">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">04</span>
+          <div>
+            <p class="eyebrow">SELECTED WORK</p>
+            <h2>Projects</h2>
+          </div>
         </div>
 
-        <h2>Declaration</h2>
-        <p>
-            I hereby declare that the above information is true and correct to the best of my knowledge.
-        </p>
+        <div class="project-grid">
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-number">01</span>
+              <span class="project-type">Laravel</span>
+            </div>
+            <h3>Seed Management System</h3>
+            <p>A dynamic web application developed using Laravel for managing seed-related data and workflows.</p>
+            <div class="project-stack"><span>PHP</span><span>Laravel</span><span>MySQL</span></div>
+          </article>
 
+          <article class="project-card reveal">
+            <div class="project-top">
+              <span class="project-number">02</span>
+              <span class="project-type">Web Application</span>
+            </div>
+            <h3>Online Application Portal</h3>
+            <p>An online application platform designed to support digital application workflows and web-based services.</p>
+            <div class="project-stack"><span>PHP</span><span>HTML</span><span>CSS</span><span>MySQL</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-number">05</span>
+          <div>
+            <p class="eyebrow">ACADEMIC BACKGROUND</p>
+            <h2>Education</h2>
+          </div>
+        </div>
+
+        <div class="education-card reveal">
+          <div class="education-year">2012<br>—<br>2015</div>
+          <div class="education-content">
+            <p class="role-label">BACHELOR'S DEGREE</p>
+            <h3>Bachelor of Computer Science (B.Sc.)</h3>
+            <p>Sardar Patel University, Vidhyanagar, Anand.</p>
+          </div>
+          <div class="education-badge">B.Sc.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2>Have a web project or opportunity?</h2>
+            <p>Feel free to contact me for professional opportunities, website development and web application work.</p>
+          </div>
+          <a class="btn btn-light" href="mailto:kdave2610@gmail.com">Email Me ↗</a>
+        </div>
+
+        <div class="contact-grid reveal">
+          <a href="mailto:kdave2610@gmail.com" class="contact-item">
+            <span class="contact-icon">@</span>
+            <div><small>EMAIL</small><strong>kdave2610@gmail.com</strong></div>
+          </a>
+          <div class="contact-item">
+            <span class="contact-icon">⌖</span>
+            <div><small>LOCATION</small><strong>Anand, Gujarat</strong></div>
+          </div>
+          <div class="contact-item">
+            <span class="contact-icon">☎</span>
+            <div><small>PHONE</small><strong>+91-XXXXXXXXXX</strong></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section declaration">
+      <div class="container">
+        <div class="declaration-box reveal">
+          <p class="eyebrow">DECLARATION</p>
+          <p>I hereby declare that the above information is true and correct to the best of my knowledge.</p>
+          <strong>Karan Dave</strong>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <div><strong>Karan Dave</strong><span>Website Developer</span></div>
+      <p>© <span id="currentYear"></span> Karan Dave. All rights reserved.</p>
+      <a href="#top">Back to top ↑</a>
     </div>
+  </footer>
 
-</div>
-
+  <script src="script.js"></script>
 </body>
 </html>
