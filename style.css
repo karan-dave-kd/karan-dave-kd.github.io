@@ -67,7 +67,7 @@ button { font: inherit; }
   background: radial-gradient(circle at 75% 25%, rgba(99,102,241,.15), transparent 32%),
               radial-gradient(circle at 15% 80%, rgba(124,58,237,.10), transparent 30%);
 }
-.hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: 70px; padding: 90px 0 100px; }
+.hero-grid { display: grid; grid-template-columns: 1.2fr .8fr; align-items: center; gap: 70px; padding: 20px 0 20px; }
 .hero-content { position: relative; z-index: 2; }
 .eyebrow { color: var(--primary); font-size: 11px; font-weight: 800; letter-spacing: .18em; }
 .hero h1 { max-width: 760px; margin: 13px 0 22px; font: 800 clamp(42px, 6vw, 74px)/1.03 "Plus Jakarta Sans", sans-serif; letter-spacing: -.055em; }
@@ -104,7 +104,7 @@ button { font: inherit; }
 }
 .scroll-indicator { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); color: var(--muted); font-size: 22px; }
 
-.section { padding: 105px 0; }
+.section { padding: 20px 0; }
 .section-alt { background: var(--surface); }
 .section-heading { display: flex; align-items: flex-start; gap: 22px; margin-bottom: 55px; }
 .section-number { font: 700 13px "Plus Jakarta Sans"; color: var(--primary); padding-top: 6px; }
@@ -159,7 +159,7 @@ button { font: inherit; }
 .education-content p:last-child { color: var(--muted); }
 .education-badge { justify-self: end; width: 72px; height: 72px; display: grid; place-items: center; border-radius: 20px; background: var(--surface-2); font: 800 16px "Plus Jakarta Sans"; color: var(--primary); }
 
-.contact-section { padding-bottom: 60px; }
+.contact-section { padding-bottom: 20px; }
 .contact-card { display: flex; justify-content: space-between; align-items: center; gap: 40px; padding: 55px; border-radius: 28px; color: #fff; background: linear-gradient(135deg, #111827, #312e81 55%, #4f46e5); box-shadow: 0 25px 60px rgba(49,46,129,.25); }
 .contact-card h2 { max-width: 650px; font: 800 clamp(30px, 4vw, 46px)/1.1 "Plus Jakarta Sans"; margin: 9px 0 15px; letter-spacing: -.04em; }
 .contact-card p:not(.eyebrow) { max-width: 650px; color: rgba(255,255,255,.72); }
