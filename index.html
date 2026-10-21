@@ -133,7 +133,15 @@
       grid-template-columns: 170px 35px 1fr;
       gap: 18px;
       align-items: start;
-      /* max-width: 900px; */
+      max-width: 100% !important;
+  }
+  .hero {
+      position: relative;
+      overflow: hidden;
+       min-height: 100%; 
+      display: grid;
+      place-items: center;
+      background: radial-gradient(circle at 75% 25%, rgba(99, 102, 241, .15), transparent 32%), radial-gradient(circle at 15% 80%, rgba(124, 58, 237, .10), transparent 30%);
   }
 </style>
 </head>
